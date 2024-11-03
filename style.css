@@ -178,7 +178,7 @@ section {
     text-align: justify;
 }
 
-.experience {
+.experiences {
     display: flex;
     gap: 2rem;
 }
@@ -187,15 +187,15 @@ section {
     padding: 0 0.7rem;
 }
 
-.experience-info {
+.experiences-info {
     margin: 0.3rem 0;
 }
 
-.experience-date {
+.experiences-date {
     margin-bottom: 3rem;
 }
 
-.experience .line div::before {
+.experiences .line div::before {
     content: "";
     width: 15px;
     height: 15px;
