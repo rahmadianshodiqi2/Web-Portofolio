@@ -204,7 +204,7 @@
         <!-- Javascript -->
 
         <script>
-            // Smooth scrolling for navigation links
+           
             document.querySelectorAll('nav ul li a').forEach(anchor => {
                 anchor.addEventListener('click', function(e) {
                     e.preventDefault();
@@ -218,9 +218,9 @@
                 });
             });
         
-            // Contact form validation
+            
             document.querySelector('.contact-form').addEventListener('submit', function(e) {
-                e.preventDefault(); // Prevent form submission
+                e.preventDefault(); 
         
                 const name = this.name.value.trim();
                 const email = this.email.value.trim();
@@ -231,16 +231,16 @@
                     return;
                 }
         
-                // Simple email validation
+                
                 const emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
                 if (!emailPattern.test(email)) {
                     alert('Please enter a valid email address.');
                     return;
                 }
         
-                // If validation passes, you can proceed with form submission or processing
+                
                 alert('Message sent successfully!');
-                this.reset(); // Reset form fields
+                this.reset(); 
             });
         </script>
 
